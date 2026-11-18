@@ -15,3 +15,5 @@ tenacity
 orjson
 pydantic
 html5lib
+
+streamlit

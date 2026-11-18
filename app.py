@@ -4,9 +4,6 @@ from datetime import datetime
 
 import streamlit as st
 
-# ===========================================================================
-# BRAND SETTINGS — edit these and the whole site updates
-# ===========================================================================
 BRAND_NAME = "Briefly"
 BRAND_SUFFIX = "Reports"
 TAGLINE = "Research, Briefly."
@@ -15,7 +12,7 @@ HERO_SUBTITLE = (
     "writes a structured report and critiques it, all in minutes."
 )
 CONTACT_EMAIL = ""   
-GITHUB_URL = ""      
+GITHUB_URL = "https://github.com/utsxvv/Multi-Agent-AI-Research-System"      
 EXAMPLE_TOPICS = [
     ("Handwriting recognition", "Advances in handwritten text recognition"),
     ("Open-source LLMs", "State of open-source large language models"),
@@ -983,7 +980,6 @@ st.markdown(
                 focus on insight. Outputs are AI-generated; please verify critical information.</div>
             </div>
             {_links_html}
-            <div class="copyright">© {datetime.now().year} {html.escape(BRAND_NAME)} {html.escape(BRAND_SUFFIX)}. All rights reserved.</div>
         </div>
         """
     ),
